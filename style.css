@@ -1,18 +1,12 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #ffe4e1;
     font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #ffe6e6;
 }
 
-.container {
-    text-align: center;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+h1 {
+    color: #ff4d4d;
 }
 
 .buttons {
@@ -20,20 +14,34 @@ body {
 }
 
 button {
-    padding: 10px 20px;
     font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
-#yes-btn {
-    background-color: #ff69b4;
+#yesButton {
+    background-color: #ff4d4d;
     color: white;
 }
 
-#no-btn {
-    background-color: #d3d3d3;
-    color: black;
+#noButton {
+    background-color: #999;
+    color: white;
     position: absolute;
+}
+
+#message {
+    display: none;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #ff4d4d;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
